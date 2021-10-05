@@ -128,5 +128,5 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-./notebooks/data/input/*
-./notebooks/data/*
+/notebooks/data/input/*
+/notebooks/data/*
