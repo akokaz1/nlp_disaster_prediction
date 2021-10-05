@@ -4,3 +4,10 @@ textpack
 catboost
 statsmodels
 feature_engine
+pyspellchecker
+nltk
+spacy
+keras
+tensorflow
+pydot
+pydotplus
