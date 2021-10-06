@@ -4,8 +4,9 @@ FROM jupyter/scipy-notebook
 RUN conda install -c conda-forge sparse_dot_topn
 RUN conda install -c conda-forge shap
 
-USER ROOT
-RUN sudo apt-get install graphviz
+USER root
+RUN apt-get update
+RUN sudo apt-get install graphviz -y
 
 USER jovyan
 ADD ./requirements.txt /home/jovyan/requirements.txt
